@@ -1,6 +1,5 @@
 %define 	module	amqplib
 Summary:	AMQP Messaging Framework for Python
-Summary(pl.UTF-8):	-
 Name:		python-%{module}
 Version:	0.6.1
 Release:	0.1
@@ -37,18 +36,9 @@ rm -rf $RPM_BUILD_ROOT
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%pre
-
-%preun
-
-%post
-
-%postun
-
 %files
 %defattr(644,root,root,755)
 %doc README* TODO
-
 %{py_sitescriptdir}/%{module}
 %if "%{py_ver}" > "2.4"
 %{py_sitescriptdir}/%{module}-*.egg-info
