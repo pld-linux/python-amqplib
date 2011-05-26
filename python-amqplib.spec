@@ -1,13 +1,13 @@
 %define 	module	amqplib
-Summary:	AMQP Messaging Framework for Python
+Summary:	Client library for AMQP (Advanced Message Queuing Protocol)
 Name:		python-%{module}
 Version:	0.6.1
 Release:	0.1
-License:	BSD-like
+License:	LGPL v2.1
 Group:		Development/Languages/Python
 Source0:	http://pypi.python.org/packages/source/a/%{module}/%{module}-%{version}.tgz
 # Source0-md5:	b2f6679b27eaae97c50a9c3504154fae
-URL:		-
+URL:		http://code.google.com/p/py-amqplib/
 BuildRequires:	python-distribute
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
@@ -17,6 +17,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+Client library for AMQP (Advanced Message Queuing Protocol).
 
 %prep
 %setup -q -n %{module}-%{version}
