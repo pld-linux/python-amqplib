@@ -1,12 +1,12 @@
 %define 	module	amqplib
 Summary:	Client library for AMQP (Advanced Message Queuing Protocol)
 Name:		python-%{module}
-Version:	0.6.1
+Version:	1.0.2
 Release:	0.1
 License:	LGPL v2.1
 Group:		Development/Languages/Python
 Source0:	http://pypi.python.org/packages/source/a/%{module}/%{module}-%{version}.tgz
-# Source0-md5:	b2f6679b27eaae97c50a9c3504154fae
+# Source0-md5:	5c92f17fbedd99b2b4a836d4352d1e2f
 URL:		http://code.google.com/p/py-amqplib/
 BuildRequires:	python-distribute
 BuildRequires:	rpm-pythonprov
