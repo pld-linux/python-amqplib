@@ -10,7 +10,7 @@ Source0:	http://pypi.python.org/packages/source/a/%{module}/%{module}-%{version}
 URL:		http://code.google.com/p/py-amqplib/
 BuildRequires:	python-distribute
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 Requires:	python-modules
 Requires:	python-pyparsing
 BuildArch:	noarch
